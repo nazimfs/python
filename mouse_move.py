@@ -1,4 +1,4 @@
-"""Application Mouse Move : bouge la souris toutes les 5 secondes entre Start et Stop."""
+"""Application Ticker : bouge la souris toutes les 5 secondes entre Start et Stop."""
 
 import tkinter as tk
 
@@ -11,7 +11,7 @@ DEPLACEMENT = 50  # pixels
 class MouseMoveApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Mouse Move")
+        self.root.title("Ticker")
         self.root.geometry("260x150")
         self.root.resizable(False, False)
 
