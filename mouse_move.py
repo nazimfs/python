@@ -1,4 +1,4 @@
-"""Application Ticker : bouge la souris toutes les 5 secondes entre Start et Stop."""
+"""Application Ticker : bouge la souris et clique toutes les 5 secondes entre Start et Stop."""
 
 import tkinter as tk
 
@@ -60,6 +60,7 @@ class MouseMoveApp:
             return
         # Aller-retour pour que la souris ne dérive pas vers le bord de l'écran
         pyautogui.moveRel(DEPLACEMENT * self.sens, 0, duration=0.25)
+        pyautogui.click()  # clic gauche à la nouvelle position
         self.sens *= -1
         self.nb_mouvements += 1
         self.compteur.config(text=f"Mouvements : {self.nb_mouvements}")
