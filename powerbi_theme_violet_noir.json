@@ -21,7 +21,6 @@
   "maximum": "#7A00E6",
   "center": "#D9B3FF",
   "minimum": "#F5EDFF",
-  "null": "#BFBFBF",
   "textClasses": {
     "title": {
       "fontFace": "Segoe UI Semibold",
