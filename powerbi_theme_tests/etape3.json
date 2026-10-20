@@ -1,0 +1,46 @@
+{
+  "name": "Violet Noir - etape 3",
+  "dataColors": [
+    "#7A00E6",
+    "#000000",
+    "#B366FF",
+    "#4A008C",
+    "#6E6E6E",
+    "#D9B3FF",
+    "#00A3A3",
+    "#FF8C1A",
+    "#2E2E2E",
+    "#9E4DF0"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#000000",
+  "tableAccent": "#7A00E6",
+  "good": "#1AAB40",
+  "neutral": "#FFB000",
+  "bad": "#D64550",
+  "maximum": "#7A00E6",
+  "center": "#D9B3FF",
+  "minimum": "#F5EDFF",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 14,
+      "color": "#000000"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#7A00E6"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#000000"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Light",
+      "fontSize": 28,
+      "color": "#7A00E6"
+    }
+  }
+}
